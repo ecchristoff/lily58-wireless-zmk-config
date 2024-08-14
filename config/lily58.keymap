@@ -46,7 +46,7 @@
 &none         &none           &kp UP_ARROW    &none            &none   &kp LA(F4)                    &kp MINUS     &kp UNDER       &kp UP_ARROW      &kp PLUS           &kp PRINTSCREEN  &kp F12
 &kp CAPSLOCK  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &none   &none                         &kp C_VOL_UP  &kp LEFT_ARROW  &kp DOWN_ARROW    &kp RIGHT_ARROW    &none            &none
 &trans        &trans          &trans          &trans           &trans  &trans      &trans    &trans  &kp C_VOL_DN  &kp K_MUTE      &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp BACKSLASH    &kp PIPE
-                                              &tog 0           &tog 1  &none       &trans    &trans  &trans        &trans          &trans
+                                              &to 0            &to 1   &none       &trans    &trans  &trans        &trans          &trans
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
@@ -62,11 +62,11 @@
 
             display-name = "Raise";
             bindings = <
-&bt BT_CLR  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4                    &kp RS(END)   &kp RS(PAGE_DOWN)  &trans            &trans             &trans         &trans
+&bt BT_CLR  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4                    &kp RS(END)   &kp RS(PAGE_DOWN)  &kp RS(PG_UP)     &trans             &trans         &trans
 &none       &none         &none         &none         &none         &none                           &none         &none              &kp UP_ARROW      &none              &none          &trans
 &none       &none         &none         &none         &none         &none                           &kp C_VOL_UP  &kp LEFT_ARROW     &kp DOWN          &kp RIGHT          &none          &trans
 &none       &none         &none         &none         &none         &none         &trans    &trans  &kp C_VOL_DN  &kp K_MUTE         &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp BACKSLASH  &none
-                                        &trans        &trans        &trans        &trans    &trans  &trans        &tog 2             &tog 0
+                                        &trans        &trans        &to 3         &trans    &trans  &trans        &to 2              &to 0
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
@@ -78,7 +78,7 @@
 &trans  &trans  &trans  &trans  &trans  &trans                       &kp MINUS     &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp PERCENT   &kp DEL
 &trans  &trans  &trans  &trans  &trans  &trans                       &kp ASTERISK  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp UP_ARROW  &kp DOWN_ARROW
 &trans  &trans  &trans  &trans  &trans  &trans  &trans    &kp ENTER  &kp SLASH     &kp KP_DOT       &kp PERIOD       &kp KP_EQUAL     &kp LEFT      &kp RIGHT
-                        &trans  &trans  &trans  &trans    &trans     &trans        &trans           &tog 0
+                        &trans  &trans  &trans  &trans    &trans     &trans        &trans           &to 0
             >;
         };
     };
