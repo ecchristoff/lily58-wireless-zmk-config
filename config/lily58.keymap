@@ -46,7 +46,7 @@
 &none         &none           &kp UP_ARROW    &none            &none   &kp LA(F4)                    &kp MINUS     &kp UNDER       &kp UP_ARROW      &kp PLUS           &kp PRINTSCREEN  &kp F12
 &kp CAPSLOCK  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &none   &none                         &kp C_VOL_UP  &kp LEFT_ARROW  &kp DOWN_ARROW    &kp RIGHT_ARROW    &none            &none
 &trans        &trans          &trans          &trans           &trans  &trans      &trans    &trans  &kp C_VOL_DN  &kp K_MUTE      &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp BACKSLASH    &kp PIPE
-                                              &to 0            &to 1   &none       &trans    &trans  &trans        &trans          &trans
+                                              &to 0            &to 1   &none       &trans    &trans  &mo 2         &trans          &trans
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
